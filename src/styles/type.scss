@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 $titleLead: 1.1;
 $subtitleLead: 1.2;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-block-start: 0;
 }
 h1, h2, h3 {
-  font-family: "Bodoni Moda", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
   @apply font-bold;
 }
 
@@ -80,7 +80,7 @@ p, li {
 }
 
 h4, h5, h6 {
-  font-family: "Bodoni Moda", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 a {
@@ -93,8 +93,8 @@ a {
   font-family: "Rethink Sans", sans-serif;
 }
 .serif {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Libre Baskerville", serif;
 }
 .condensed {
-  font-family: "Bodoni Moda", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
 }
