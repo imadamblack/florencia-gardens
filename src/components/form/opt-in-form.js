@@ -42,6 +42,7 @@ export default function OptInForm({lastClick = ''}) {
           {email: data.email, phone: data.phone, externalID: id},
         );
         setCookie('lead', {...data, id});
+        router.push(`/survey?id=${id}`);
       })
       .catch(() => {
         fbEvent(
@@ -49,16 +50,8 @@ export default function OptInForm({lastClick = ''}) {
           {email: data.email, phone: data.phone, externalID: ''},
         );
         setCookie('lead', {...data});
-      })
-      .then(() => {
-        if (info.surveyRedirect !== '') {
-          const forwardLink = document.createElement('a');
-          forwardLink.href = info.surveyRedirect;
-          forwardLink.target = '_blank';
-          forwardLink.click();
-        }
         router.push(`/thankyou`);
-      });
+      })
   };
 
   return (

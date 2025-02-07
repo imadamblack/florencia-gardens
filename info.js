@@ -3,8 +3,8 @@ export const info = {
   companyName: "Florencia Gardens",
   description: "Un proyecto de Binvest",
   email: {
-    sender: "info@florenciagardens.com",
-    recipients: ["info@florenciagardens.com"],
+    sender: "contacto@florenciagardens.com",
+    recipients: ["contacto@florenciagardens.com"],
     subject: "Nuevo prospecto Florencia Gardens",
   },
   phoneNumber: "+523331274474",
@@ -13,8 +13,8 @@ export const info = {
     message: "Buen día, me puede dar más información sobre los departamentos de Florencia Gardens",
   },
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "florencia.creato",
+    instagram: "florencia_gardens",
   },
   address: {
     address: "PASEO ROYAL COUNTRY 4596-23",
@@ -23,7 +23,8 @@ export const info = {
     city: "Zapopan",
     state: "Jalisco",
   },
-  optInWebhook: '',
+  optInWebhook: 'https://hook.us1.make.com/nep4cn6e68rymd0jx2ojgq4p3k8kjdec',
+  surveyWebhook: 'https://hook.us1.make.com/9azpzwudrlolmfzurm6qwzyy8fx1mth5',
   surveyRedirect: '',
   privacyNotice: "/aviso-privacidad",
   termsConditions: "/aviso-privacidad",
