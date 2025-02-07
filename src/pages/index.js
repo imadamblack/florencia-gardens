@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container w-full text-left text-white z-10 p-8">
           <h1
             className="md:w-2/3 relative font-bold ft-11 text-white [text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]">
-            El único edificio en providencia que no parece una caja de zapatos
+            Por fin, un edificio en Providencia con diseño de verdad
           </h1>
           <p className="ft-3 mt-4">Departamentos desde $4.5 mdp</p>
           <div className="flex flex-col justify-start items-start mt-12">
@@ -131,7 +131,7 @@ export default function Home() {
         image={i06}
       />
       <section className="container my-16 md:space-y-32">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
               <Image src={ilobby} layout="fill" className="object-cover"/>
@@ -185,7 +185,7 @@ export default function Home() {
       />
       <section className="my-16">
         <div className="flex flex-col items-center justify-center md:mx-52 mx-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-white mx-auto">
             <div className="w-full flex flex-col bg-brand-1 rounded-2xl overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
                 <div className="relative w-full flex justify-start text-brand-2">
@@ -316,7 +316,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-12 rounded-xl bg-brand-2 flex items-center">
             <p className="ft-2 text-white text-center">Proyectos en Dubai, Arabia Saudita,
               New York, Francia y el Reino Unido.</p>
