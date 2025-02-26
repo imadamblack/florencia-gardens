@@ -25,7 +25,7 @@ export const info = {
   },
   optInWebhook: 'https://hook.us1.make.com/nep4cn6e68rymd0jx2ojgq4p3k8kjdec',
   surveyWebhook: 'https://hook.us1.make.com/9azpzwudrlolmfzurm6qwzyy8fx1mth5',
-  surveyRedirect: '',
+  surveyRedirect: 'https://calendly.com/binvest-group/florencia-gardens',
   privacyNotice: "/aviso-privacidad",
   termsConditions: "/aviso-privacidad",
 };
