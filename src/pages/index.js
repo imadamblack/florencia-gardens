@@ -43,11 +43,11 @@ export default function Home() {
 
   return (
     <>
-      <section className="relative min-h-[80vh] w-full flex flex-col md:justify-end items-center bg-brand-1">
+      <section className="relative min-h-[80vh] w-full flex flex-col md:justify-end items-center bg-[#1c1c1c]">
 
         <div className="relative min-h-[24rem] flex-grow w-full md:absolute top-0 inset-x-0 bottom-1/2 md:bottom-0">
           <div
-            className="w-full h-full absolute bg-gradient-to-t from-brand-1 md:from-black via-transparent to-transparent md:opacity-60 z-10"/>
+            className="w-full h-full absolute bg-gradient-to-t from-[#1c1c1c] md:from-black via-transparent to-transparent md:opacity-60 z-10"/>
           <Image src={i00} layout="fill" className="object-cover object-right"/>
         </div>
 
@@ -56,7 +56,7 @@ export default function Home() {
             className="md:w-2/3 relative font-bold ft-11 text-white [text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]">
             Por fin, un edificio en Providencia con diseño de verdad
           </h1>
-          <p className="ft-3 mt-4">Departamentos desde $4.5 mdp</p>
+          <p className="ft-3 mt-4">Departamentos desde $6 mdp</p>
           <div className="flex flex-col justify-start items-start mt-12">
             {/*<Link href="#contact">*/}
             {/*  <a onClick={() => setLastClick('hero')} className="button mb-4">{cta.main}</a>*/}
@@ -85,7 +85,6 @@ export default function Home() {
       <Blockbuster
         overhead="Beneficios"
         title="¿Por qué Florencia Gardens es tu próxima inversión?"
-        description="Ahí te van tres razones para invertir aquí (no vas a necesitar más):"
         image={i02}
       />
       <section className="my-16">
@@ -95,7 +94,7 @@ export default function Home() {
             <div className="relative h-[24rem] overflow-hidden flex items-center order-2 md:order-1 mb-8">
               <Image src={i03} className="object-cover"/>
             </div>
-            <p className="order-3">Providencia es una zona en constante crecimiento, así que, tu depa va a aumentar su
+            <p className="order-3">Providencia es una zona en constante crecimiento, así que, tu departamento va a aumentar su
               valor hasta un 20%</p>
           </div>
           <div className="flex flex-col">
@@ -111,7 +110,7 @@ export default function Home() {
             <div className="relative h-[24rem] overflow-hidden flex items-center order-2 md:order-1 mb-8">
               <Image src={isketch} className="object-cover"/>
             </div>
-            <p className="order-3">Diseñado por <b>Creato Arquitectos</b> (con proyectos realizados en Emiratos Árabes, Francia, Brasil, entre otros)
+            <p className="order-3">Diseñado por <b>Creato Arquitectos</b> (con proyectos realizados en Emiratos Árabes, Francia, Brasil, EEUU, entre otros)
               que crea espacios con tecnología avanzada y acabados boutique que no les puedes poner un “pero”</p>
           </div>
         </div>
@@ -127,43 +126,43 @@ export default function Home() {
 
       <Blockbuster
         overhead="Amenidades"
-        title="Con todo lo necesario para que vivas increíble o lo rentes de volada"
-        image={i06}
+        title="Con todo lo necesario para que vivas increíble o lo rentes de inmediato"
+        image={i05}
       />
       <section className="container my-16 md:space-y-32">
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="w-full items-stretch">
-            <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
+            <div className="relative w-full pt-[100%] mb-8 rounded-xl overflow-hidden">
               <Image src={ilobby} layout="fill" className="object-cover"/>
             </div>
             <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Lobby</h3>
           </div>
           <div className="w-full items-stretch">
-            <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
+            <div className="relative w-full pt-[100%] mb-8 rounded-xl overflow-hidden">
               <Image src={ialberca} layout="fill" className="object-cover"/>
             </div>
             <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Alberca</h3>
           </div>
           <div className="w-full items-stretch">
-            <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
+            <div className="relative w-full pt-[100%] mb-8 rounded-xl overflow-hidden">
               <Image src={igym} layout="fill" className="object-cover"/>
             </div>
             <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Gimnasio</h3>
           </div>
           <div className="w-full items-stretch">
-            <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
+            <div className="relative w-full pt-[100%] mb-8 rounded-xl overflow-hidden">
               <Image src={iskybar} layout="fill" className="object-cover"/>
             </div>
             <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Skybar</h3>
           </div>
           <div className="w-full items-stretch">
-            <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
+            <div className="relative w-full pt-[100%] mb-8 rounded-xl overflow-hidden">
               <Image src={iterraza} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Terrazas</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Roof</h3>
           </div>
           <div className="w-full items-stretch">
-            <div className="relative w-full pt-[100%] rounded-xl overflow-hidden">
+            <div className="relative w-full pt-[100%] mb-8 rounded-xl overflow-hidden">
               <Image src={ijacuzzi} layout="fill" className="object-cover"/>
             </div>
             <h3 className="order-1 md:order-2 mt-8 ft-5 font-bold">Jacuzzi</h3>
@@ -186,7 +185,7 @@ export default function Home() {
       <section className="my-16">
         <div className="flex flex-col items-center justify-center md:mx-52 mx-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-white mx-auto">
-            <div className="w-full flex flex-col bg-brand-1 rounded-2xl overflow-hidden">
+            <div className="w-full flex flex-col bg-[#1c1c1c] rounded-2xl overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
                 <div className="relative w-full flex justify-start text-brand-2">
                   <div className="material-icons ft-11">format_quote</div>
@@ -195,11 +194,11 @@ export default function Home() {
                   Binvest y Creato siempre son garantía de buenos proyectos. No me cabe duda que Florencia Gardens será un gran proyecto, con excelentes rendimientos.
                 </p>
                 <div className="mt-auto">
-                  <p className="text-brand-2 ft-4 font-bold">CARLOS M</p>
+                  <p className="text-brand-2 ft-4 font-bold">CARLOS M.</p>
                 </div>
               </div>
             </div>
-            <div className="w-full flex flex-col bg-brand-1 rounded-2xl overflow-hidden">
+            <div className="w-full flex flex-col bg-[#1c1c1c] rounded-2xl overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
                 <div className="relative w-full flex justify-start text-brand-2">
                   <div className="material-icons ft-11">format_quote</div>
@@ -213,7 +212,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full flex flex-col bg-brand-1 rounded-2xl overflow-hidden">
+            <div className="w-full flex flex-col bg-[#1c1c1c] rounded-2xl overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
                 <div className="relative w-full flex justify-start text-brand-2">
                   <div className="material-icons ft-11">format_quote</div>
@@ -318,8 +317,8 @@ export default function Home() {
         </div>
         <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-12 rounded-xl bg-brand-2 flex items-center">
-            <p className="ft-2 text-white text-center">Proyectos en Dubai, Arabia Saudita,
-              New York, Francia y el Reino Unido.</p>
+            <p className="ft-2 text-white text-center">Proyectos en Arabia Saudita,
+              EEUU, Francia y el Reino Unido.</p>
           </div>
           <div className="p-12 rounded-xl bg-brand-2 flex items-center">
             <p className="ft-2 text-white text-center">Plusvalía de 20% en promedio en Providencia.</p>
@@ -381,7 +380,7 @@ export default function Home() {
         <div className="container">
           <div className="w-full md:w-1/2 mx-auto">
             <h2 className="!font-bold text-white">
-              Ya llegaste hasta aquí, agenda una sesión gratuita para entrar en nuestra primera etapa de preventa.
+              Por favor agenda una sesión para conocernos y entres en nuestra primera etapa de preventa.
             </h2>
             <div className="mt-20 mb-12">
               <p className="ft-1 text-white">

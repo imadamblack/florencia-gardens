@@ -11,12 +11,11 @@ import { restrictNumber } from '../utils/formValidators';
 const formSteps = [
   {
     name: 'intention',
-    title: `Ok, prometo hacer esto lo más rápido y sencillo posible, <br/>son solo 4 preguntas.`,
+    title: `Compártenos un poco más sobre ti para perfilarte mejor`,
     description: '¿Con qué fin estás buscando comprar?',
     type: 'radio',
     options: [
-      {value: 'inversion', label: 'Inversión a largo plazo'},
-      {value: 'rentar', label: 'Rentarlo y generar ingresos pasivos'},
+      {value: 'inversion', label: 'Inversión'},
       {value: 'vivienda', label: 'Quiero vivir ahí'},
     ],
     cols: 1,
@@ -28,11 +27,11 @@ const formSteps = [
     description: 'Selecciona una opción por favor',
     type: 'radio',
     options: [
-      {value: '4M-4.5M', label: 'Entre $4 mdp y $4.5 mdp'},
-      {value: '4.5M-6M', label: 'Entre $4.5 mdp y $6 mdp'},
-      {value: '6M-10M', label: 'Entre $6 mdp y $10 mdp'},
-      {value: '10M-15M', label: 'Entre $10 mdp y $15 mdp'},
-      {value: '15M+', label: 'Más de $15 mdp'},
+      {value: '<4.5M', label: 'Menos de 4.5mdp'},
+      {value: '4.5M-7M', label: 'De $4.5mdp a 6.9mdp (1 recámara)'},
+      {value: '7M-10M', label: 'De $7mdp - $10mdp (2 recámaras)'},
+      {value: '11M-15M', label: 'De $11mdp - $15mdp (3 recamaras)'},
+      {value: '15M+', label: 'Más de $15 mdp (Pent House y Garden House)'},
     ],
     cols: 1,
     inputOptions: {required: true}
@@ -42,7 +41,7 @@ const formSteps = [
     title: '¿Cómo planeas realizar tu inversión?',
     type: 'radio',
     options: [
-      {value: 'privado', label: 'Financiamiento privado'},
+      {value: 'privado', label: 'Financiamiento del desarrollador'},
       {value: 'hipotecario', label: 'Crédito hipotecario'},
       {value: 'contado', label: 'De contado'},
     ],
@@ -51,7 +50,7 @@ const formSteps = [
   },
   {
     name: 'commitment',
-    title: '¿Contamos con tu asistencia puntual el día y hora que selecciones?',
+    title: 'Estás a punto de agendar una sesión con nosotros ¿contamos con tu asistencia puntual?',
     description: 'Dado al volumen de solicitudes que tenemos, en ocasiones es complicado re-agendar.',
     type: 'radio',
     options: [
