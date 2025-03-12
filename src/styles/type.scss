@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/ygj3nsx.css");
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 $titleLead: 1.1;
@@ -61,12 +62,12 @@ label { @extend .-ft-3 }
 b { @apply font-bold }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply text-brand-1 tracking-normal;
+  @apply text-[#1c1c1c] tracking-normal;
   margin-block-start: 0;
 }
 h1, h2, h3 {
-  font-family: "Libre Baskerville", sans-serif;
-  @apply font-bold;
+  font-family: "contralto-xsmall", sans-serif;
+  @apply font-semibold;
 }
 
 h4, h5, h6 {
@@ -80,7 +81,7 @@ p, li {
 }
 
 h4, h5, h6 {
-  font-family: "Libre Baskerville", sans-serif;
+  font-family: "contralto-medium", sans-serif;
 }
 
 a {
@@ -93,8 +94,8 @@ a {
   font-family: "Rethink Sans", sans-serif;
 }
 .serif {
-  font-family: "Libre Baskerville", serif;
+  font-family: "contralto-medium", serif;
 }
 .condensed {
-  font-family: "Libre Baskerville", sans-serif;
+  font-family: "contralto-medium", sans-serif;
 }

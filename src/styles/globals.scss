@@ -149,7 +149,7 @@ ol {
 
 .overhead {
   @extend .-ft-3;
-  @apply relative font-light uppercase tracking-widest px-4 py-2 bg-brand-1 text-white w-max rounded-lg mb-8;
+  @apply relative uppercase tracking-widest px-4 py-2 bg-white w-max rounded-lg mb-8;
 }
 
 .reading-container {

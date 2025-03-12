@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://use.typekit.net/ygj3nsx.css");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
 @tailwind base;
 @tailwind components;
@@ -256,13 +257,13 @@ b {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply text-brand-1 tracking-normal;
+  @apply text-[#1c1c1c] tracking-normal;
   margin-block-start: 0;
 }
 
 h1, h2, h3 {
-  font-family: "Libre Baskerville", sans-serif;
-  @apply font-bold;
+  font-family: "contralto-xsmall", sans-serif;
+  @apply font-semibold;
 }
 
 h4, h5, h6 {
@@ -275,7 +276,7 @@ p, li {
 }
 
 h4, h5, h6 {
-  font-family: "Libre Baskerville", sans-serif;
+  font-family: "contralto-medium", sans-serif;
 }
 
 a {
@@ -289,11 +290,11 @@ a {
 }
 
 .serif {
-  font-family: "Libre Baskerville", serif;
+  font-family: "contralto-medium", serif;
 }
 
 .condensed {
-  font-family: "Libre Baskerville", sans-serif;
+  font-family: "contralto-medium", sans-serif;
 }
 
 form {
@@ -501,7 +502,7 @@ ol > li {
 }
 
 .overhead {
-  @apply relative font-light uppercase tracking-widest px-4 py-2 bg-brand-1 text-white w-max rounded-lg mb-8;
+  @apply relative uppercase tracking-widest px-4 py-2 bg-white w-max rounded-lg mb-8;
 }
 
 .reading-container {
