@@ -43,20 +43,20 @@ export default function Home() {
 
   return (
     <>
-      <section className="relative min-h-[80vh] w-full flex flex-col md:justify-end items-center bg-white">
+      <section className="relative min-h-[60rem] md:min-h-[80rem] w-full flex flex-col md:justify-end items-center bg-white">
 
-        <div className="relative min-h-[24rem] flex-grow w-full md:absolute top-0 inset-x-0 bottom-1/2 md:bottom-0">
+        <div className="absolute min-h-[60rem] md:min-h-[80rem] flex-grow w-full md:absolute top-0 inset-x-0 bottom-1/2 md:bottom-0">
           <div
-            className="w-full h-full absolute bg-gradient-to-t from-white md:from-black via-transparent to-transparent md:opacity-60 z-10"/>
+            className="w-full pt-[300%] md:pt-[30%] bottom-0 absolute bg-gradient-to-t from-white md:from-black via-transparent to-transparent md:opacity-60 z-10"/>
           <Image src={i00} layout="fill" className="object-cover object-right"/>
         </div>
 
-        <div className="container w-full text-center z-50 p-8">
+        <div className="container mt-auto w-full text-center z-50 p-8">
           <h1
-            className="md:w-2/3 mx-auto relative uppercase ft-11 md:text-white md:[text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]" style={{fontFamily: "contralto-medium"}}>
+            className="md:w-2/3 mx-auto relative uppercase ft-11 md:text-white [text-shadow:_1px_1px_0_rgb(0_0_0_/_20%)] md:[text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]" style={{fontFamily: "contralto-medium"}}>
             Por fin, un edificio en Providencia con diseño de verdad
           </h1>
-          <p className="ft-3 mt-4 mb-0 md:text-white">Departamentos desde $6 mdp</p>
+          {/*<p className="ft-3 mt-4 mb-0 md:text-white">Departamentos desde $6 mdp</p>*/}
           <div className="flex flex-col justify-center items-center mt-12 md:text-white">
             {/*<Link href="#contact">*/}
             {/*  <a onClick={() => setLastClick('hero')} className="button mb-4">{cta.main}</a>*/}
@@ -84,13 +84,13 @@ export default function Home() {
 
       <Blockbuster
         overhead="Beneficios"
-        title="¿Por qué Florencia Gardens es tu próxima inversión?"
+        title="Esto es Florencia Gardens"
         image={i02}
       />
       <section className="my-16">
-        <div className="container grid grid-cols-1 md:grid-cols-3 md:gap-16">
+        <div className="container grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
           <div className="flex flex-col">
-            <h3 className="order-1 md:order-2 mb-8 font-normal">Plusvalía que no necesita presentación</h3>
+            {/*<h3 className="order-1 md:order-2 mb-8 font-normal">Plusvalía que no necesita presentación</h3>*/}
             <div className="relative h-[24rem] overflow-hidden flex items-center order-2 md:order-1 mb-8">
               <Image src={i03} className="object-cover"/>
             </div>
@@ -194,7 +194,7 @@ export default function Home() {
                   Binvest y Creato siempre son garantía de buenos proyectos. No me cabe duda que Florencia Gardens será un gran proyecto, con excelentes rendimientos.
                 </p>
                 <div className="mt-auto">
-                  <p className="ft-4 font-bold">CARLOS M.</p>
+                  <p className="ft-4 serif font-semibold">CARLOS M.</p>
                 </div>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function Home() {
                   es un proyecto que entiende el lujo y lo traduce en ROI. Invertir aquí va a ser la mejor decisión del año.
                 </p>
                 <div className="mt-auto">
-                  <p className="ft-4 font-bold">ANA M.</p>
+                  <p className="ft-4 serif font-semibold">ANA M.</p>
                 </div>
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function Home() {
                   Esto no es solo una propiedad, es una declaración de una gran alianza. Ya estoy esperando la preventa para comprar mi depa en Florencia Gardens
                 </p>
                 <div className="mt-auto">
-                  <p className="ft-4 font-bold">LUIS G.</p>
+                  <p className="ft-4 serif font-semibold">LUIS G.</p>
                 </div>
               </div>
             </div>
@@ -303,15 +303,15 @@ export default function Home() {
         title="Invertir en Florencia Gardens es tan lógico como inevitable."
         image={i08}
       />
-      <section className="py-16]">
+      <section className="py-16">
         <div className="reading-container mb-16">
-          <p className="ft-6 text-center">Florencia Gardens es un proyecto desarrollado por:</p>
-          <div className="grid grid-cols-2 my-16">
-            <div className="relative">
-              <Image src={creato} objectPosition="bottom"/>
+          {/*<p className="ft-6 text-center">Florencia Gardens es un proyecto desarrollado por:</p>*/}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 my-16">
+            <div className="relative w-full min-h-[10rem]">
+              <Image src={creato} layout="fill" objectPosition="bottom" objectFit="contain"/>
             </div>
-            <div className="relative">
-              <Image src={binvest} objectPosition="bottom"/>
+            <div className="relative w-full min-h-[8rem]">
+              <Image src={binvest} layout="fill" objectPosition="bottom" objectFit="contain"/>
             </div>
           </div>
         </div>
