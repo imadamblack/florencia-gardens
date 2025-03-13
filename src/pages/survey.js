@@ -50,8 +50,8 @@ const formSteps = [
   },
   {
     name: 'commitment',
-    title: 'Estás a punto de agendar una sesión con nosotros ¿contamos con tu asistencia puntual?',
-    description: 'Dado al volumen de solicitudes que tenemos, en ocasiones es complicado re-agendar.',
+    title: 'Estás a punto de programar una sesión con nosotros ¿contamos con tu asistencia puntual?',
+    description: 'Dado al volumen de solicitudes que tenemos, en ocasiones es complicado reprogramar.',
     type: 'radio',
     options: [
       {value: 'si', label: 'Claro que sí!'},

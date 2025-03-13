@@ -374,7 +374,7 @@ export default function Home() {
         <div className="container">
           <div className="w-full md:w-1/2 mx-auto">
             <h2>
-              Por favor agenda una sesión para conocernos y entres en nuestra primera etapa de preventa.
+              Por favor programa una sesión para conocernos y entres en nuestra primera etapa de preventa.
             </h2>
             <div className="mt-20 mb-12">
               <p className="ft-1">
