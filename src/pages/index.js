@@ -47,14 +47,14 @@ export default function Home() {
 
         <div className="absolute min-h-[60rem] md:min-h-[80rem] flex-grow w-full md:absolute top-0 inset-x-0 bottom-1/2 md:bottom-0">
           <div
-            className="w-full pt-[300%] md:pt-[30%] bottom-0 absolute bg-gradient-to-t from-white md:from-black via-transparent to-transparent md:opacity-60 z-10"/>
+            className="w-full pt-[50%] md:pt-[30%] bottom-0 absolute bg-gradient-to-t from-white md:from-black via-white md:via-transparent to-transparent md:opacity-60 z-10"/>
           <Image src={i00} layout="fill" className="object-cover object-right"/>
         </div>
 
         <div className="container mt-auto w-full text-center z-50 p-8">
           <h1
-            className="md:w-2/3 mx-auto relative uppercase ft-11 md:text-white [text-shadow:_1px_1px_0_rgb(0_0_0_/_20%)] md:[text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]" style={{fontFamily: "contralto-medium"}}>
-            Por fin, un edificio en Providencia con diseño de verdad
+            className="md:w-2/3 mx-auto relative uppercase ft-8 md:text-white [text-shadow:_1px_1px_0_rgb(0_0_0_/_20%)] md:[text-shadow:_2px_2px_0_rgb(0_0_0_/_20%)]" style={{fontFamily: "contralto-medium"}}>
+            El nuevo ícono de Providencia
           </h1>
           {/*<p className="ft-3 mt-4 mb-0 md:text-white">Departamentos desde $6 mdp</p>*/}
           <div className="flex flex-col justify-center items-center mt-12 md:text-white">
@@ -130,42 +130,42 @@ export default function Home() {
         image={i05}
       />
       <section className="container my-16 md:space-y-32">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
               <Image src={ilobby} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-normal text-center">Lobby</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Lobby</h3>
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
               <Image src={ialberca} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-normal text-center">Alberca</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Alberca</h3>
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
               <Image src={igym} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-normal text-center">Gimnasio</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Gimnasio</h3>
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
               <Image src={iskybar} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-normal text-center">Skybar</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Skybar</h3>
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
               <Image src={iterraza} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-normal text-center">Roof</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Roof</h3>
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
               <Image src={ijacuzzi} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-5 font-normal text-center">Jacuzzi</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Jacuzzi</h3>
           </div>
         </div>
 
