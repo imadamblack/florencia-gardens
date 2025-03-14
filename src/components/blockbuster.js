@@ -11,7 +11,7 @@ export default function Blockbuster({overhead, title, description, image}) {
             {/*<p className="overhead">{overhead}</p>*/}
             <h2
               dangerouslySetInnerHTML={{__html: title}}
-              className="my-auto ft-10 font-normal"
+              className="my-auto ft-7 font-normal"
             />
             <p className="ft-3 mt-8">{description}</p>
           </div>

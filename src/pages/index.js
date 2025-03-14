@@ -16,12 +16,13 @@ import i08 from '../../public/landing/08.png';
 import i09 from '../../public/landing/09.png';
 import iLocation from '../../public/landing/location.png';
 import isketch from '../../public/landing/sketch.png';
-import ialberca from '../../public/landing/alberca.png';
-import igym from '../../public/landing/gym.png';
+import ialberca from '../../public/landing/alberca.jpg';
+import igym from '../../public/landing/gym.jpg';
 import iterraza from '../../public/landing/terraza.png';
 import iskybar from '../../public/landing/skybar.png';
 import ilobby from '../../public/landing/lobby.png';
 import ijacuzzi from '../../public/landing/jacuzzi.png';
+import ikidsarea from '../../public/landing/kidsarea.jpg';
 import binvest from '../../public/binvest-logo.png';
 import creato from '../../public/creato-logo.png';
 import Faqs from '../components/faqs';
@@ -126,7 +127,7 @@ export default function Home() {
 
       <Blockbuster
         overhead="Amenidades"
-        title="Con todo lo necesario para que vivas increíble o lo rentes de inmediato"
+        title="El equilibrio perfecto entre vivir plenamente y saber invertir"
         image={i05}
       />
       <section className="container my-16 md:space-y-32">
@@ -157,9 +158,9 @@ export default function Home() {
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
-              <Image src={iterraza} layout="fill" className="object-cover"/>
+              <Image src={ikidsarea} layout="fill" className="object-cover"/>
             </div>
-            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Roof</h3>
+            <h3 className="order-1 md:order-2 mt-8 ft-8 font-normal text-center">Ludoteca</h3>
           </div>
           <div className="w-full items-stretch">
             <div className="relative w-full pt-[100%] mb-8 overflow-hidden">
@@ -310,7 +311,7 @@ export default function Home() {
             <div className="relative w-full min-h-[10rem]">
               <Image src={creato} layout="fill" objectPosition="bottom" objectFit="contain"/>
             </div>
-            <div className="relative w-full min-h-[8rem]">
+            <div className="relative w-full min-h-[10rem]">
               <Image src={binvest} layout="fill" objectPosition="bottom" objectFit="contain"/>
             </div>
           </div>
