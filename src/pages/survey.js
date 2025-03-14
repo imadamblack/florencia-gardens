@@ -57,7 +57,7 @@ const formSteps = [
       {value: 'phone', label: 'Llamada telefónica'},
       {value: 'videocall', label: 'Videollamada'},
     ],
-    cols: 2,
+    cols: 3,
     inputOptions: {required: true}
   },
   {
