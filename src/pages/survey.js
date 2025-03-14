@@ -49,6 +49,18 @@ const formSteps = [
     inputOptions: {required: true}
   },
   {
+    name: 'contactMethod',
+    title: '¿Cómo prefieres que te contactemos?',
+    type: 'radio',
+    options: [
+      {value: 'whatsapp', label: 'WhatsApp'},
+      {value: 'phone', label: 'Llamada telefónica'},
+      {value: 'videocall', label: 'Videollamada'},
+    ],
+    cols: 2,
+    inputOptions: {required: true}
+  },
+  {
     name: 'commitment',
     title: 'Estás a punto de programar una sesión con nosotros ¿contamos con tu asistencia puntual?',
     description: 'Dado al volumen de solicitudes que tenemos, en ocasiones es complicado reprogramar.',
